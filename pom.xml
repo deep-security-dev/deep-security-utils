@@ -1,9 +1,8 @@
-<project>
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.deepsecurity</groupId>
-    <artifactId>deep-security-utils</artifactId>
-    <version>1.0.0</version>
-    <dependencies>
-        <!-- Add dependencies here -->
-    </dependencies>
-</project>
+<dependencies>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter</artifactId>
+        <version>5.9.3</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
