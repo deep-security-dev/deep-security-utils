@@ -36,13 +36,16 @@ The **Deep Security Utils** module provides utility classes and methods for the 
    ```bash
    cd cd deep-security-utils
    ```
-
-3. 🚦 Run & Test
-   ```bash
    
-4. Build artifact:
+3. Build artifact:
    ```bash
    mvn clean package
+   ```
+
+## Run & Test
+4. Run the Application
+   ```bash
+      java -jar target/deep-security-api-1.0.0.jar
    ```
 ## 🛡️ Security Vulnerabilities
 This module is actively scanned for vulnerabilities using Trivy. See the latest scan report in the repository artifacts.
